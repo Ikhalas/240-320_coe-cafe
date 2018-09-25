@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import home from './home';
 import './App.css';
 
+
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="padding">
       <br></br>
         <div className="box-login">  
             <br></br> 
@@ -16,7 +17,7 @@ class App extends Component {
             <div className="button">
             <a href="home">Sign-in</a>
             </div>
-
+            
             <br></br> 
             <br></br> 
         </div>
