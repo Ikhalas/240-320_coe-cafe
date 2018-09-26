@@ -29,8 +29,8 @@ class App extends Component {
   render() {
 
     let fbContent;
-
     if(this.state.isLoggedIn){
+
       fbContent = (
         <div className="facebookIcon">
           <br></br>
@@ -57,7 +57,7 @@ class App extends Component {
         <div className="box-login">  
 
             <br></br> 
-            <img src ='../logo.jpg'/> 
+            <img src ='https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/3176472/580/390/m1/fpnw/wm0/1-.png?1504000065&s=e9ced1ccd1d91c45aa61478a69a98d18'/> 
             <br></br><br></br>
             
             

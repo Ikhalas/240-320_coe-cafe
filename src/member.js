@@ -18,7 +18,7 @@ import { Form,
      DropdownMenu,
      DropdownItem  } from 'reactstrap';
 
-export default class home extends Component {
+export default class member extends Component {
     constructor(props) {
         super(props);
         this.toggle1 = this.toggle1.bind(this);
@@ -38,12 +38,7 @@ export default class home extends Component {
           isOpen: !this.state.isOpen
         });
       }
-      es(){
-          alert("Complete: Please wait for Espresso...")
-      }
-      moc(){
-        alert("Complete: Please wait for Moccha...")
-    }
+   
 
     render() {
         return (
@@ -89,54 +84,32 @@ export default class home extends Component {
                     </div>
                     <h1>-------------------------------</h1>
                     <br></br>
-                    <img src ='https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/3176472/580/390/m1/fpnw/wm0/1-.png?1504000065&s=e9ced1ccd1d91c45aa61478a69a98d18' alt="logo"/> 
+                    <h3>Developer Team List</h3>
                     <br></br>
-                    <h1>------------------------------</h1>
-                      <h3 className="textmenu">MENU</h3><br></br>
-                    <div className="pic">
-                      <img src ='http://circlecdental.com/wp-content/uploads/2012/06/epresso-slider.png' alt="espresso" onClick={this.toggle1} width="350"/>
-                      <Collapse isOpen={this.state.collapse1}>
-                        <Card>
-                          <CardBody>
-                            <Form>
-                              <FormGroup>
-                              <Label className="text">amount</Label>
-                                <Input type="select" name="amount" id="amount" >
-                                  <option>1 cup</option>
-                                  <option>2 cup</option>
-                                  <option>3 cup</option>
-                                  <option>4 cup</option>
-                                  <option>5 cup</option>
-                                </Input>
-                              </FormGroup>
-                            </Form>
-                            <button onClick={this.es} className="button">Buy</button>
-                          </CardBody>
-                        </Card>
-                      </Collapse>
-                    </div>
-                    <div className="pic">
-                      <img src ='https://thumbs-prod.si-cdn.com/iHOmIJlzBQ1ppKmzTAT4txuNzGU=/800x600/filters:no_upscale():focal(461x237:462x238)/https://public-media.smithsonianmag.com/filer/b5/94/b5942caf-8c09-40c2-842e-c52f99f9344f/mocha.jpg' alt="moccha" onClick={this.toggle2} width="350"/>
-                      <Collapse isOpen={this.state.collapse2}>
-                        <Card>
-                          <CardBody>
-                            <Form>
-                              <FormGroup>
-                              <Label className="text">amount</Label>
-                                <Input type="select" name="amount" id="amount" >
-                                  <option>1 cup</option>
-                                  <option>2 cup</option>
-                                  <option>3 cup</option>
-                                  <option>4 cup</option>
-                                  <option>5 cup</option>
-                                </Input>
-                              </FormGroup>
-                            </Form>
-                            <button onClick={this.moc} className="button">Buy</button>
-                          </CardBody>
-                        </Card>
-                      </Collapse>
-                    </div>
+                    <h1>-------------------------------</h1>
+
+                    <table className="table">
+                        <tr>
+                            <td className="columnL"><img src ='https://scontent.fbkk14-1.fna.fbcdn.net/v/t1.0-9/21433267_1184704011663265_2631105572539889692_n.jpg?_nc_cat=105&_nc_eui2=AeGQhHrrKeXjUcdkO8rPByEGoYLgCDiYIctBFgrk5RLttzyE4eAvMERGzDPYbYZ3Yn-ZnmrqbsortUQu5eaAIlk_UMpmS6a07MUZpALJAj5-8g&oh=1bdf00ca8eb47d90e94b743a72325d51&oe=5C207A62'
+                             alt="Ikhalas"  width="400"/></td>
+                            
+                            
+                            <td>
+                            <div className="columnR"> 
+                            <h2>Ikhalas  Mannoon</h2>
+                            <p>student ID : 5910110405</p>
+                            <a href="https://www.facebook.com/Class.Ikhalas">FACEBOOK</a>
+                            </div> 
+                            </td>
+                        </tr>
+                        
+                    
+                    
+                    </table>
+
+                        <br></br>
+                
+
                     <div className="footer">
                         copyright by psu-student 2018
                     </div>

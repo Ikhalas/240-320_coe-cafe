@@ -1,19 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import registerServiceWorker from './registerServiceWorker';
-import home from './home';
-import {Router,Route,Link,browserHistory} from 'react-router'
-
+import {browserHistory} from 'react-router'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Routes from './Routes';
+import App from './App';
 
 
 
 ReactDOM.render(
-    <Router history={browserHistory}>
-    <Route path="/" component={App}/>
-    <Route path="/home" component={home}/>
-    </Router>,document.getElementById('root')
+    <Routes history={browserHistory}>
+      <App />
+    </Routes>,
+    document.getElementById('root')
    
     
 );
