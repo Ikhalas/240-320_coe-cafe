@@ -6,6 +6,7 @@ import {browserHistory} from 'react-router'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Routes from './Routes';
 import App from './App';
+import home from './home';
 
 
 

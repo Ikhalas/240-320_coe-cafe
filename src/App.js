@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FacebookLogin from 'react-facebook-login';
 import './App.css';
+import { Button,ButtonToolbar } from 'reactstrap';
 
 class App extends Component {
   state = {
@@ -12,8 +13,6 @@ class App extends Component {
   }
 
   responseFacebook = response =>{
-    //console.log(response);
-
     this.setState({
       isLoggedIn: true,
       userID: response.userID,
@@ -22,6 +21,12 @@ class App extends Component {
       picture: response.picture.data.url
     });
   }
+  
+  
+ 
+
+
+
 
   componentClicked = () => console.log("clicked");
 
@@ -32,13 +37,18 @@ class App extends Component {
     if(this.state.isLoggedIn){
 
       fbContent = (
-        <div className="facebookIcon">
-          <br></br>
+        <div className="facebookIconHome">
+          
           <img src={this.state.picture}/>
           <p>you are logged in</p>
           <p>{this.state.name}</p>
-          <div className="buttonFacebook"><a href="home">go to shop</a></div>
-          <home value = {this.state.name}/>
+          
+          <ButtonToolbar>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<Button color="danger" bsSize="large" href="home">Go To Cafe </Button>
+          </ButtonToolbar>
+
+          
+          
           
         </div>
       );
@@ -57,7 +67,7 @@ class App extends Component {
         <div className="box-login">  
 
             <br></br> 
-            <img src ='https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/3176472/580/390/m1/fpnw/wm0/1-.png?1504000065&s=e9ced1ccd1d91c45aa61478a69a98d18'/> 
+            <img src ='http://www.thelogomix.com/files/imagecache/v3-logo-detail/coffee-code.png'/> 
             <br></br><br></br>
             
             

@@ -1,7 +1,9 @@
 body{
-  background-color:rgb(83, 69, 69);
+  
   font-family: "Athiti", Athiti;
   font-size:18px;
+ 
+  background-image: url(https://st2.depositphotos.com/1006438/5710/v/950/depositphotos_57109831-stock-illustration-wooden-background-with-coffee-pattern.jpg);
 }
 
 .box-login{
@@ -20,7 +22,7 @@ body{
 .page{
   width: 800px;
   margin:auto;
-  background-color: white;
+  background-color: rgb(245, 237, 229);
   border: 2px solid #F5F5F5;
   border-radius: 4px;
   box-shadow: 0 0 12px #828282; 
@@ -28,6 +30,19 @@ body{
   font-size: 10px;
   font-family: 'Courier New', Courier, monospace;
 }
+
+.pageHead{
+  width: 800px;
+  margin:auto;
+  background-color: rgb(255, 255, 255);
+  border: 2px solid #F5F5F5;
+  border-radius: 4px;
+  box-shadow: 0 0 12px #828282; 
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 
 .buttonFacebook{
   font-size: 20px;
@@ -42,14 +57,35 @@ body{
   padding-top: 40px;
 }
 
+.paddingFoot{
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+.paddingHead{
+  padding-bottom: 10px;
+}
+
 .facebookIcon{
-  width: 300px;
+  width: 350px;
+  margin:left;
+  background-color: rgb(58, 98, 172);
+  box-shadow: 0 0 12px #747474; 
+  text-align: center;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.facebookIconHome{
+  width: 250px;
   margin:auto;
   background-color: rgb(58, 98, 172);
   box-shadow: 0 0 12px #747474; 
   text-align: center;
   font-size: 15px;
   color: rgb(255, 255, 255);
+  padding-bottom: 5px;
+  padding-top: 10px;
 }
 
 .welcomeBox{
@@ -78,12 +114,21 @@ body{
 
 
 .footer{
+  width: 800px;
+  margin:auto;
+  background-color: white;
+  border: 2px solid #F5F5F5;
+  border-radius: 4px;
+  box-shadow: 0 0 12px #828282; 
+  text-align: center;
+  font-size: 10px;
+  font-family: 'Courier New', Courier, monospace;
   background-color: rgb(219, 219, 219);
   font-size: 20px;
 }
 .nav{
   font-size: 20px;
-  padding-left: 500px;
+  padding-left: 30px;
 }
 
 .table{
@@ -102,3 +147,8 @@ body{
   text-align: center;
   font-size: 20px;
 }
+.fac{
+  text-align: left;
+  padding-right: 130px;
+}
+
