@@ -5572,6 +5572,10 @@ react-error-overlay@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-4.0.1.tgz#417addb0814a90f3a7082eacba7cee588d00da89"
 
+react-facebook-login@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/react-facebook-login/-/react-facebook-login-4.1.0.tgz#44492e60a17dc337438bc971b7ee04b96965b6e4"
+
 react-material-navbar@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/react-material-navbar/-/react-material-navbar-1.2.1.tgz#6014b3a388063a38b9fa303b46ab997a079d88b0"
@@ -6619,6 +6623,10 @@ trim-newlines@^1.0.0:
 trim-right@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/trim-right/-/trim-right-1.0.1.tgz#cb2e1203067e0c8de1f614094b9fe45704ea6003"
+
+trim@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/trim/-/trim-0.0.1.tgz#5858547f6b290757ee95cccc666fb50084c460dd"
 
 tty-browserify@0.0.0:
   version "0.0.0"
